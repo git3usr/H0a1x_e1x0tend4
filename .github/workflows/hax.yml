@@ -3,7 +3,7 @@ name: 'Hax Auto Renew'
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 11 */1 * *'
+    - cron: '25 10 */1 * *'
 jobs:
   hax_renew:
     runs-on: windows-2022
